@@ -1,0 +1,12 @@
+server:
+  port: 8080
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.xd.model
+spring:
+  datasource:
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test
+    type: org.apache.commons.dbcp.BasicDataSource
